@@ -135,6 +135,11 @@ function resetGameVars(){
   current=0; correct=0; finalScore=0;
   submitBtn.disabled=true; resultDiv.innerHTML="";
   questionNumberDiv.textContent="";
+
+   // 🔥 額外補充，避免按鈕消失
+  checkBtn.style.display="inline-block"; 
+  checkBtn.disabled=true;
+  nextBtn.style.display="none";
 }
 
 function loadQuestion(){
