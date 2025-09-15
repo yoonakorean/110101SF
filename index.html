@@ -19,7 +19,7 @@ audio { width: 100%; max-width: 400px; margin-top: 10px; display:block; margin-l
 
 /* 改動二：放大置中輸入框 */
 #nickname { 
-  font-size: 18px; 
+  font-size: 20px; 
   padding: 10px; 
   width: 80%; 
   max-width: 350px; 
@@ -103,8 +103,8 @@ let shuffledQuestions=[],current=0,correct=0,finalScore=0;
 let timer=null,timeLeft=0,timerStarted=false,currentMode=null,startTime=null;
 
 // 顯示標題與送表單標題
-const displayTitle = "1-1 句型填空挑戰";
-const fullTitle = "11-1-1 句型填空挑戰";
+const displayTitle = "1-1 句子填空挑戰";
+const fullTitle = "11-1-1 句子填空挑戰";
 
 function shuffle(array){for(let i=array.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[array[i],array[j]]=[array[j],array[i]];}return array;}
 
